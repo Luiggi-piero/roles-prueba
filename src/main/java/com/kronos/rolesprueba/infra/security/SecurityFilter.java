@@ -1,6 +1,6 @@
 package com.kronos.rolesprueba.infra.security;
 
-import com.kronos.rolesprueba.repository.UserRepository;
+import com.kronos.rolesprueba.repository.IUserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -16,9 +16,9 @@ import java.io.IOException;
 public class SecurityFilter extends OncePerRequestFilter {
 
     private final TokenService tokenService;
-    private final UserRepository userRepository;
+    private final IUserRepository userRepository;
 
-    public SecurityFilter(TokenService tokenService, UserRepository userRepository) {
+    public SecurityFilter(TokenService tokenService, IUserRepository userRepository) {
         this.tokenService = tokenService;
         this.userRepository = userRepository;
     }

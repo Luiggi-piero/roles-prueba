@@ -10,6 +10,7 @@ API Rest desarrollada en Java con Spring Boot para la gestión de usuarios(login
 3. [Configuración](#configuración)
 4. [Tecnologías utilizadas](#tecnologías-utilizadas)
 5. [Estructura del proyecto](#estructura-del-proyecto)
+6. [Diagrama entidad-relación](#diagrama-entidad-relacion)
 
 
 ## Funcionalidades
@@ -95,6 +96,8 @@ Arquitectura multicapas
       │       └── application.properties -> Configuration app.
       └── 
 
+## Diagrama Entidad Relación
+![Image](https://github.com/user-attachments/assets/6245abde-f646-489e-8a19-79ae01cc57ff)
 
 </br>
 

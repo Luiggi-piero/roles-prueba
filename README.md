@@ -10,7 +10,7 @@ API Rest desarrollada en Java con Spring Boot para la gestión de usuarios(login
 3. [Configuración](#configuración)
 4. [Tecnologías utilizadas](#tecnologías-utilizadas)
 5. [Estructura del proyecto](#estructura-del-proyecto)
-6. [Diagrama entidad-relación](#diagrama-entidad-relacion)
+6. [Diagrama entidad-relación](#diagrama-entidad-relación)
 
 
 ## Funcionalidades
